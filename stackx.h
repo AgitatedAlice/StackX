@@ -20,6 +20,10 @@ class StackX {
 			data = new T [sz]; // initialize sz sized array of type T
 			sp = 0; mx = sz;
 		}
+		StackX(T * target, U sz){
+			data = target;
+			sp = 0; mx = sz;
+		}
 		~StackX(){
 			delete[] data;
 		}
