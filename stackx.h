@@ -46,8 +46,8 @@ class StackX {
 		}
 		
 		void dump(){
-			for(int i = 0; i < sp; i++)
-				std::cout << i << ": " << static_cast<int>(data[i]) << "\n";
+			for(U i = 0; i < sp; i++)
+				std::cout << i << ": " << static_cast<U>(data[i]) << "\n";
 		}
 		
 		
